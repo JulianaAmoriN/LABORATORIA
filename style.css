@@ -1,0 +1,26 @@
+
+.yellow {
+    background-color: yellow;
+    width: 30%;
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    
+}
+.pink {
+    background-color: rgb(255, 0, 149);
+    width: 30%;
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    
+}
+
+.titulo{
+    color: rgb(1, 70, 58);
+    text-align: center;
+    
+}
+#nome{
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 let nome = prompt("Qual seu nome?");
-if (nome == null || nome == " ") {
+if (nome == null || nome == "" || nome == " ") {
         nome = "Anônimo"
 };
 document.getElementById("nome").textContent = "Olá, " + nome + " !";

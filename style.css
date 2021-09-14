@@ -1,26 +1,18 @@
-
-.yellow {
-    background-color: yellow;
+.box{
     width: 30%;
     display: inline-block;
     margin: 30px;
-    padding: 10px;
-    
+    padding: 10px
+}
+.center{
+    text-align: center;
+}
+.yellow {
+    background-color: yellow;    
 }
 .pink {
     background-color: rgb(255, 0, 149);
-    width: 30%;
-    display: inline-block;
-    margin: 30px;
-    padding: 10px;
-    
 }
-
 .titulo{
-    color: rgb(1, 70, 58);
-    text-align: center;
-    
-}
-#nome{
-    text-align: center;
+    color: rgb(1, 70, 58); 
 }

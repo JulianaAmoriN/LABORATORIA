@@ -5,7 +5,11 @@ if (nome == null || nome == "" || nome == " ") {
 document.getElementById("nome").textContent = "Olá, " + nome + " !";
 
 function participarVestibulinho() {
-        let resposta = prompt("Você que participar do vestibulinho? reponda com sim ou não");
+        let resposta;
+        resposta = prompt("Você que participar do vestibulinho? reponda com sim ou não");
+        if (resposta === null){
+                resposta = "não"
+        }
         resposta.toLowerCase();
         menuResposta(resposta);
 }
@@ -13,6 +17,7 @@ function participarVestibulinho() {
 participarVestibulinho();
 
 function menuResposta(resposta) {
+
         switch (resposta) {
                 case "sim":
                         alert("Legal, vamos começar");
@@ -82,4 +87,12 @@ function correcaoResposta3(pergunta3) {
                         document.getElementById("resposta3errada")
                                 .textContent = "Pergunta 3";
         }
+}
+
+const buttonJogarNovamente = document.getElementById("jogarNovamente");
+buttonJogarNovamente.addEventListener("click", jogarNovamente);
+
+function jogarNovamente(event){
+        event.preventDefault();
+        provaVestibulinho();
 }

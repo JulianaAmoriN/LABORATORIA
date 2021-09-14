@@ -94,5 +94,8 @@ buttonJogarNovamente.addEventListener("click", jogarNovamente);
 
 function jogarNovamente(event){
         event.preventDefault();
+        document.getElementById("resposta1certa", "resposta2certa","resposta1certa","resposta2errada","resposta3errada")
+                .textContent = "";
         provaVestibulinho();
+        
 }

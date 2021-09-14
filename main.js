@@ -7,12 +7,12 @@ document.getElementById("nome").textContent = "Olá, " + nome + " !";
 function participarVestibulinho() {
         let resposta = prompt("Você que participar do vestibulinho? reponda com sim ou não");
         resposta.toLowerCase();
-        caseResposta(resposta);
+        menuResposta(resposta);
 }
 
 participarVestibulinho();
 
-function caseResposta(resposta) {
+function menuResposta(resposta) {
         switch (resposta) {
                 case "sim":
                         alert("Legal, vamos começar");

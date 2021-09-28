@@ -37,19 +37,18 @@ function provaVestibulinho() {
 }
 
 function correcaoResposta1(pergunta_1) {
-        (pergunta_1 == 'b' || pergunta_1 == 35) ? document.getElementById('resposta1certa').textContent = 'Pergunta 1' : 
-                document.getElementById('resposta1errada').textContent = 'Pergunta 1';
+        let resposta = (pergunta_1 == 'b' || pergunta_1 == 35) ?'resposta1certa' : 'resposta1errada';
+                document.getElementById(`${resposta}`).textContent = 'Pergunta 1';
 }
 
 function correcaoResposta2(pergunta_2) {
-
-        (pergunta_2 === 'a' || pergunta_2 == 150) ? document.getElementById('resposta2certa').textContent = 'Pergunta 2' : 
-                document.getElementById('resposta2errada').textContent = 'Pergunta 2';
+        let resposta = (pergunta_2 === 'a' || pergunta_2 == 150) ? 'resposta2certa' : 'resposta2errada';
+                document.getElementById(`${resposta}`).textContent = 'Pergunta 2';
 }
 
 function correcaoResposta3(pergunta_3) {
-        (pergunta_3 === 'a' || pergunta_3 == 160) ? document.getElementById('resposta3certa').textContent = 'Pergunta 3' : 
-                document.getElementById('resposta3errada').textContent = 'Pergunta 3';
+        let resposta = (pergunta_3 === 'a' || pergunta_3 == 160) ?'resposta3certa' : 'resposta3errada';
+                document.getElementById(`${resposta}`).textContent = 'Pergunta 3';
 }
 
 const buttonJogarNovamente = document.getElementById('jogarNovamente');

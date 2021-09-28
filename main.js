@@ -2,14 +2,14 @@ let nome = prompt('Qual seu nome?');
 (nome == null || nome == '' || nome == ' ') ? nome = 'Anônimo': nome;
 document.getElementById('nome').textContent = 'Olá, ' + nome + ' !';
 
+participarVestibulinho();
+
 function participarVestibulinho() {
         let resposta;
         resposta = prompt('Você que participar do vestibulinho? reponda com sim ou não');
         resposta === null ? resposta = 'não' : resposta;
         menuResposta(resposta.toLowerCase());
 }
-
-participarVestibulinho();
 
 function menuResposta(resposta) {
         switch (resposta) {

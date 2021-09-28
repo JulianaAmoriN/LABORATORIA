@@ -35,7 +35,6 @@ function provaVestibulinho() {
         correcaoResposta1(pergunta_1.toLowerCase());
         correcaoResposta2(pergunta_2.toLowerCase());
         correcaoResposta3(pergunta_3.toLowerCase());
-        
 }
 
 function correcaoResposta1(pergunta_1) {

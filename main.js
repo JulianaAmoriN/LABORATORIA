@@ -12,7 +12,6 @@ function participarVestibulinho() {
 participarVestibulinho();
 
 function menuResposta(resposta) {
-
         switch (resposta) {
                 case 'sim':
                         alert('Legal, vamos começar');
